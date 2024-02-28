@@ -1,4 +1,5 @@
 <template>
+  <h1>consoles</h1>
   <div class="container">
     <img v-for="console in consoles" :key="console.name" :src="console.img" :alt="console.name + ' Image'">
   </div>
